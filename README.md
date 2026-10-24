@@ -44,6 +44,8 @@ ollama run phi3
 
 ```cmd
 ollama run gpt-oss
+
+ollama run qwen2.5:7b
 ```
 
 **Why?** To explore another AI model. Check its hardware requirements before downloading.
