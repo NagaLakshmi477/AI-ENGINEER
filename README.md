@@ -59,3 +59,23 @@ ollama list
 **Why?** To see which AI models are downloaded on our laptop.
 
 ---
+## setting env with git and cursor
+
+open powershell 
+install git
+close the powershell and repoen new and serach git command 
+create a floder called projects
+mkdir projects
+cd projects
+git clone https://github.com/ed-donner/llm_engineering.git
+cd llm_engineering
+
+download cursor
+https://cursor.com/
+
+open cursor and open ide
+uv --version
+uv self update
+uv sync
+
+we can a one file .env that stores all our secrets
